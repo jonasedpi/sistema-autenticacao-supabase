@@ -98,5 +98,9 @@ const styles = StyleSheet.create({
     buttonText: {
         color: colors.zinc,
         fontWeight: 'bold',
-    }         
+    },
+    link: {
+        marginTop: 8,
+        textAlign: 'center',
+    },
 });
