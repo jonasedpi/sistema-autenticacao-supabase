@@ -34,8 +34,8 @@ export default function Login() {
                     <Text style={styles.button}>Acessar</Text>
                 </Pressable>
 
-                <Link href="/(auth)/signup/page">
-                    <Text style={styles.link}>Ainda não possui uma conta? Cadastre-se</Text>
+                <Link href="/(auth)/signup/page" style={styles.link}>
+                    <Text>Ainda não possui uma conta? Cadastre-se</Text>
                 </Link>
             </View>
         </View>
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     link: {
-        marginTop: 8,
+        marginTop: 16,
         textAlign: 'center',
     },
 });
